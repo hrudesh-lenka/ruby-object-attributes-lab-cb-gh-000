@@ -1,5 +1,5 @@
 class Person
-  def initialize(name, job)
+  def attr_accesor :name, :job
     def name
       @name
     end
